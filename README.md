@@ -1,6 +1,6 @@
 MNIST Digit Classifier: Manual Backprop vs PyTorch
 
-This project implements a simple 2-layer neural network for the MNIST digit classification task, comparing a manual backpropagation implementation with PyTorch’s built-in tools. The goal is to learn how backpropagation works from scratch and validate it against PyTorch.
+This project implements a simple 2-layer neural network for the MNIST digit classification task, comparing a manual backpropagation implementation with PyTorch’s built in tools. The goal is to learn how backpropagation works from scratch and validate it against PyTorch
 
 Dataset
 Source: MNIST dataset via sklearn.datasets.fetch_openml
@@ -27,8 +27,8 @@ Randomness in initialization affects predictions for individual digits, but over
 
 Results
 All plots are stored in the Results/ folder:
-loss_comparison.png — Training loss comparison between manual and PyTorch models
-sample_predictions.png — Random MNIST images showing OG label, Manual prediction, and PyTorch prediction
+loss_comparison.png Training loss comparison between manual and PyTorch models
+sample_predictions.png Random MNIST images showing OG label, Manual prediction, and PyTorch prediction
 
 Folder Structure
 Backprop-Implementation-MNIST/
